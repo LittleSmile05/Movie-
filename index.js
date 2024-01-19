@@ -19,7 +19,7 @@ menuToggle.addEventListener("click", function () {
 
 
 const BASE_URL = `https://api.themoviedb.org/3`;
-const APIKEY =`cdcbdcac2837a7886f31841cf04b185d`;
+const APIKEY =`Api_Key`;
 const TRENDING_MOVIE = `${BASE_URL}/trending/all/week?api_key=${API_KEY}`;
 const POPULAR_MOVIE = `${BASE_URL}/discover/movie?sort_by=popularity.desc&api_key=${API_KEY}`;
 const RATED_MOVIE = `${BASE_URL}/movie/top_rated?api_key=${API_KEY}`;
